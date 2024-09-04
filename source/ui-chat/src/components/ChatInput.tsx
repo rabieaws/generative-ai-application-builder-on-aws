@@ -76,7 +76,7 @@ export const ChatInput = ({ onSend, stopConversationRef, socketStatusType, socke
                         data-class-name="chat-input-textarea"
                         data-testid="chat-input-textarea"
                         data-columns="3"
-                        placeholder={'Type a message...' || ''}
+                        placeholder={'Ask away...' || ''}
                         value={content}
                         rows={1}
                         onChange={({ detail }) => handleChange(detail.value)}
